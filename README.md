@@ -1,7 +1,4 @@
 # Gridin
-A SUPER Simple Grid System for Responsive Web
-
-## GRIDIN.css
 Gridin is a lightweight, super simple grid system with 12 columns. You can quickly build responsive web pages with Gridin without a complex learning process.
 
 ## Desktop
