@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:300,400,600,700,800');
+
+
+* {
+  outline: none;
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+.container {
+  width: 60%; margin: 0 auto;
+}
+
+@media (max-width: 991px) {
+  .container {
+    width: 95%; margin: 0 auto;
+  }
+}
+
+section#main {
+  background-color: #02AAB0;
+  background: -webkit-linear-gradient(#02AAB0 , #00CDAC);
+  background: linear-gradient(#02AAB0 , #00CDAC);
+}
+
+  section#main .container {
+    padding: 230px 10px;
+    margin: 0 auto;
+    width: 100%; max-width: 1000px;
+    text-align: center;
+    color: white;
+    box-sizing: border-box;
+  }
+
+    section#main .container h1 {
+      font-size: 60pt;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+    }
+
+    section#main .container p {
+      font-size: 17pt;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 300;
+    }
+
+    section#main .container button {
+      padding: 10px;
+      margin-top: 30px;
+      background-color: transparent;
+      border: 1px solid white;
+      font-size: 17pt;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 300;
+      color: white;
+      cursor: pointer;
+      transition: background-color .3s;
+    }
+
+    section#main .container button:hover {
+      background-color: rgba(255, 255, 255, 0.3);
+    }
+
+    section#main .container .github {
+      margin-top: 20px;
+    }
+
+    @media (max-width: 757px) {
+      section#main .container h1 {
+        font-size: 40pt;
+      }
+
+      section#main .container p {
+        font-size: 12pt;
+      }
+
+      section#main .container button {
+        font-size: 12pt;
+      }
+    }
+
+section#showcase {
+  background-color: #FDFDFD;
+  padding: 10px 0;
+}
+
+  section#showcase hr {
+    margin-top: 30px;
+    border: 1px solid #EEE;
+  }
+
+  section#showcase .text {
+    margin: 80px auto 30px auto;
+    padding-left: 10px;
+  }
+
+    section#showcase .text h3 {
+      color: #02AAB0;
+      color: #333333;
+      font-size: 30pt;
+      font-family: 'Montserrat', sans-serif;
+      margin-bottom: 5px;
+    }
+
+    section#showcase .text p {
+      font-size: 14pt;
+      font-weight: 300;
+      line-height: 150%;
+      color: #444;
+    }
+
+  section#showcase .row div div {
+    background-color: #DDD;
+    border: 1px solid #AAA;
+    text-align: center;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+
+code.html {
+  background-color:#F7F7F9;
+  font-family: 'Open Sans', sans-serif;
+  margin: 10px;
+}
