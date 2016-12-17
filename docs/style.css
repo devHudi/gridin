@@ -120,6 +120,24 @@ section#showcase {
     box-sizing: border-box;
   }
 
+footer {
+  background-color: #22313F;
+  padding: 40px;
+  font-family: 'Open Sans', sans-serif;
+  color: #FFFFFF;
+  font-weight: 300;
+  font-size: 12pt;
+  text-align: center;
+}
+
+  footer a {
+    color: #FFFFFF;
+  }
+
+  footer a b {
+    font-weight: 500;
+  }
+
 code.html {
   background-color:#F7F7F9;
   font-family: 'Open Sans', sans-serif;
